@@ -1,0 +1,16 @@
+cd -> Change directory
+ls -> List Element
+pwd -> Present Working Directory
+git init -> This comand will initialize a folder as a git repository
+git status -> This command will show the status of git repository
+git add --a or git add a. --> This command will add all new created file
+git commit -m Initial commit" -> To comit and print this message
+git log -> To see how many update we have done
+rm -rf .git -> This command will destroy the git rrepository
+git clone "location" -> To clone some file like tensor flow
+touch .gitignore -> Create a file named .gitignore
+//If we want to ignore some file then we can create a file suppose .gitignore and put this
+ existing file to .gitignore in this method:- We just need to open .gitignore file and type
+ existing file name suppose "error.log" then we can see that this existing file is not showing 
+ in git status.
+git mv main.txt command.txt -> It will rename my main.txt file to command.txt
