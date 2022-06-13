@@ -1,0 +1,36 @@
+cd -> Change directory
+ls -> List Element
+pwd -> Present Working Directory
+git init -> This comand will initialize a folder as a git repository
+git status -> This command will show the status of git repository
+git add --a or git add a. --> This command will stage all new created file
+git add <file> -> This command will stage this perticular file
+git restore --stage <file> -> This command will unstage this perticular file
+git commit -m Initial commit" -> To comit and print this message
+git checkout -f -> This command will undo the last changes for all file which is in unstage area
+git checkout -- <file name> -> This command will undo the last changes on this perticular file which should be in unstage area
+git log -> To see how many update we have done
+rm -rf .git -> This command will destroy the git rrepository
+git clone "location" -> To clone some file like tensor flow
+touch .gitignore -> Create a file named .gitignore
+//If we want to ignore some file then we can create a file suppose .gitignore and put this
+ existing file to .gitignore in this method:- We just need to open .gitignore file and type
+ existing file name suppose "error.log" then we can see that this existing file is not showing 
+ in git status.
+git mv main.txt command.txt -> It will rename my main.txt file to command.txt
+git rm --cached new_ppt.pptx -> This command help to untract new_ppt.pptx
+git log -p -> This command will show the difference that what are the changes has made along with commit
+git log -p -3 -> This command will show only 3 commit along with their difference
+git log --stat -> This command will show the dev shortly
+git log --pretty=oneline -> This command will show in one line
+git log --pretty=oneline -> This command will show in short
+git log --pretty=oneline -> This command will show in little bit more
+git log --since=2.days -> This command will show for previous 2 days commit
+	git log --since=2.months	//Same
+	git log --since=2.years		//Same
+git log --pretty=format:"%h -- %an" -> This will show the abbreviated commit hash -- author name
+
+If we want to add our own commit then we need to do:
+after changing something on the project file and stage this file -> we need go give this command git commit --amend (with this command
+vim editor window will open and we can see there are some existing commits, now we can modify this commit) -> Then to exit from vim editor
+we need to press "i" then we can write something now we will type "escape" -> ":" -> "wq" -> ENTER.
