@@ -34,3 +34,5 @@ If we want to add our own commit then we need to do:
 after changing something on the project file and stage this file -> we need go give this command git commit --amend (with this command
 vim editor window will open and we can see there are some existing commits, now we can modify this commit) -> Then to exit from vim editor
 we need to press "i" then we can write something now we will type "escape" -> ":" -> "wq" -> ENTER.
+
+git push -u origin master -> This command help you to push your git to git-hub
